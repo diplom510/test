@@ -33,8 +33,7 @@ ul.nav>li>a:hover span {
 	border-bottom: 2px solid #fff;
 }
 
-.header-banner {
-	display: block !important;
+.header_banner {
 	height: 500px;
 	background: url('../img/bg.jpg');
 	background-repeat: no-repeat;
@@ -286,7 +285,7 @@ footer p {font-weight: bold}
 @media (max-width: 767px) {
 	.logo {top: 30px}
 	.logo img {height: 40px}
-	.header-banner {height: 260px}
+	.header_banner {height: 260px}
 	.content-title {
 		position: absolute;
 		top: -260px;
@@ -305,7 +304,7 @@ footer p {font-weight: bold}
 }
 
 @media (min-width: 768px) {
-	.header-banner {position: relative}
+	.header_banner {position: relative}
 	.navbar-collapse.collapse {
 		display: table !important;
 		margin: auto;
@@ -319,7 +318,7 @@ footer p {font-weight: bold}
 		height: 133px;
 		padding-left: 80px;
 	}
-	.header-banner {height: 300px}
+	.header_banner {height: 300px}
 	.info-wrapper {
 		width: 60%;
 		margin: 0 auto 80px	;
